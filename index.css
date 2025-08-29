@@ -1,0 +1,163 @@
+/*header*/
+*{
+    margin:0;
+    padding:0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.sup
+{
+    color: rgb(255, 48, 121);
+}
+#head
+{
+    border-bottom:1px solid rgb(182, 182, 182);
+}
+.head_menu
+{
+    background-color:white;
+    font-weight: 700;
+    font-size: 13px;
+    opacity:0.8;    
+
+}
+#image
+{
+    height:30px;
+    width: 45px;
+    margin-left:  3%;
+    margin-right: 3%;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+.header-bar
+{   
+    display :flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.menu_bar
+{
+    display :flex;
+    width:200px;
+    justify-content:flex-start;
+    
+    min-width: 550px;
+}
+.head_menu
+{
+    margin-left:15px ;
+    margin-right:15px;
+    border: none;
+    box-sizing: content-box;
+}
+.head_menu:hover
+{
+    border-bottom: 3px solid rgb(255, 0, 115);
+}
+#search {
+    display: flex;
+    align-items: center; 
+    height: 40px;
+    min-width: 200px;
+    width: 38%;     
+    margin-top: 16px;     
+    margin-left: 20px;
+    background-color: rgb(247, 246, 246);
+    border-radius: 5px;   
+}
+
+.search_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;   
+}
+
+#search_image {
+    height: 24px;
+    width: 24px;
+    filter: brightness(0.8);
+}
+
+#Search_Id {
+   border: none;
+    outline: none;     
+    background-color: rgb(247, 246, 246);
+    width: 100%;
+    height: 40px;     
+    font-size: 13px;
+    padding: 0 10px;
+    border-radius: 5px;;
+}
+.material-symbols-outlined
+{
+    color: rgb(167, 166, 166);
+    margin: 0px;
+    
+}
+.right_bar {
+    display: flex;           
+    justify-content: space-evenly; 
+    align-items: center;      
+    width: 200px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;     
+    align-items: center;         
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 12px;
+    font-weight:600;
+    border-bottom:3px solid rgb(255, 255, 255);                    
+
+}
+.icons:hover
+{
+    border-bottom:3px solid rgb(255, 0, 115);
+}
+
+/*---------main-----------------*/
+.banner
+{
+    margin-top: 20px;
+    width:100%;
+    height: 200px;
+    margin-bottom: 20px;;
+}
+.image_2
+{
+    width: 240px;
+    height: 290px;
+}
+.section2
+{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+/*---------footer--------------*/
+footer
+{
+    background-color: rgb(250, 250, 250);
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#head5
+{
+    opacity: 0.6;
+}
+.paragraph
+{
+    opacity: 0.4;
+    font-size: 14px;
+}
+.image_2
+{
+    border:2px solid black;
+}
+
