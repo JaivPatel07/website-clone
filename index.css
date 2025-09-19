@@ -10,6 +10,7 @@
 }
 #head
 {
+    
     border-bottom:1px solid rgb(182, 182, 182);
 }
 .head_menu
@@ -30,10 +31,17 @@
     margin-bottom: 20px;
 }
 .header-bar
-{   
-    display :flex;
-    flex-direction:row;
+{     
+    position: fixed;     
+    top: 0;            
+    left: 0;
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    background-color: white; 
+    z-index: 1000; 
+    border-bottom: 1px solid rgb(182, 182, 182);
 }
 .menu_bar
 {
